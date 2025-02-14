@@ -58,7 +58,7 @@ def display_grocery_lists():
     output_text.config(state=tk.DISABLED)
 
 def add_item_entry():
-    if len(item_entries) < 10:  # Set a reasonable limit
+    if len(item_entries) < 10: 
         entry = tk.Entry(frame, font=("Arial", 12), width=25)
         entry.pack(pady=2)
         item_entries.append(entry)
