@@ -169,7 +169,7 @@ def final_list():
 
     final_list_text.config(state=tk.DISABLED)
 
-    messagebox.showinfo("not enough lists","least required 2 lists")
+
 
 tk.Label(main_frame, text="📝 List Name:", bg="#f0f0f0", font=("Arial", 14, "bold")).pack(anchor="w", pady=(0, 5))
 list_name_entry = tk.Entry(main_frame, font=("Arial", 12), width=25)
